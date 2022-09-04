@@ -1,0 +1,20 @@
+.feedback__article {
+  max-width: 718px;
+  min-height: 361px;
+  background-color: #fff;
+
+  padding: 32px 27px 100px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__article {
+    max-width: 415px;
+    padding: 33px 30px 24px;
+  }
+}
